@@ -1,8 +1,22 @@
 # Ignore Gradle project-specific cache directory
 .gradle
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
+gradle/libs.versions.toml
 
 # Ignore Gradle build output directory
 build
 
+
+.settings/
 test.sh
 testBuild/
+
+
+#IDE files 
+lib/.classpath
+lib/.project
+
+examples/
